@@ -4,4 +4,12 @@
 			{{ item.name }}
 		</a>
 	{% endfor %}
+
+	{% for item in site.data.external_navigation %}
+		<a href="{{ item.link }}">
+			{{ item.name }}
+		</a>
+		<br>
+		<br>
+	{% endfor %}
 </nav>
