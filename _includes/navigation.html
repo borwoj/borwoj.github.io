@@ -1,15 +1,10 @@
 <nav>
 	{% for item in site.data.navigation %}
-		<a href="{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>
-			{{ item.name }}
-		</a>
+		<a href="{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>{{ item.name }}</a>
 	{% endfor %}
 
 	{% for item in site.data.external_navigation %}
-		<a href="{{ item.link }}">
-			{{ item.name }}
-		</a>
-		<br>
-		<br>
+		<a href="{{ item.link }}">{{ item.name }}</a>
+		<br><br>
 	{% endfor %}
 </nav>

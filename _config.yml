@@ -1,0 +1,20 @@
+title: Borys Wojciechowski
+tagline: Personal Website
+description: Borys Wojciechowski's personal website. Social media profiles, hobby projects and contact information.
+url: https://borysw.net
+twitter:
+  username: borwoj
+  card: summary
+social:
+  name: Borys Wojciechowski
+  link:
+    - https://www.linkedin.com/in/boryswojciechowski
+    - https://www.facebook.com/boryswojciechowski
+    - https://twitter.com/borwoj
+    - https://github.com/borwoj
+    - https://stackoverflow.com/users/953682/eyesclear
+lang: en-US
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
